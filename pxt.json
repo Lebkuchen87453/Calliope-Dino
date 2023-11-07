@@ -2,7 +2,8 @@
     "name": "Calliope Dino",
     "description": "",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "v2": "*"
     },
     "files": [
         "main.ts",
@@ -16,7 +17,7 @@
         "branch": "v4.0.29",
         "tag": "v4.0.29",
         "commits": "https://github.com/microsoft/pxt-calliope/commits/5a1ba75dc9f06c3fbddf4f40fc154cdd4dc826f1",
-        "target": "4.0.29",
+        "target": "6.0.21",
         "pxt": "7.0.18",
         "targetId": "calliopemini"
     },

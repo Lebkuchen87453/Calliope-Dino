@@ -95,6 +95,7 @@ function run() {
 
 // Method for handling if a player dies
 function dead() {
+    
     basic.setLedColor(basic.rgb(255, 0, 0))
     mainMenu = false
     basic.clearScreen()
@@ -106,7 +107,6 @@ function dead() {
     # . . . #
     `)
     basic.pause(2000)
-    jumpState = 0
     basic.clearScreen()
     if (storage.getNumber(StorageSlots.s1) < score) {
         storage.putNumber(StorageSlots.s1, score)
